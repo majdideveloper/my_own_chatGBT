@@ -2,6 +2,7 @@
 
   
   <h1>ChatGPT Flutter</h1>
+  <img src="assets/images/bannerChatGBT.png" >
   
   
 <!-- Badges -->
