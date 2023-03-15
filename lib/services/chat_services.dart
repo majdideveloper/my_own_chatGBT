@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:http/http.dart' as http;
 import 'package:my_own_chatgpt/models/model_models.dart';
 
+import '../api_key.dart';
 import '../models/chat_model.dart';
-import 'api_constants.dart';
 
 class ChatServices {
   static Future<List<ChatModel>> sendMessageAndReceiveMessage(

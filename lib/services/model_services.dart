@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:http/http.dart' as http;
 import 'package:my_own_chatgpt/models/model_models.dart';
 
-import 'api_constants.dart';
+import '../api_key.dart';
 
 class ModelServices {
   static Future<List<ModelModels>> getALlModels() async {
