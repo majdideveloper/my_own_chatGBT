@@ -60,7 +60,7 @@ git clone https://github.com/majdideveloper/my_own_chatGBT.git
 
 
 ## App Screenshot
-<img src="assets/images/s1.png" width="250"> <img src="assets/images/s2.png" width="250"> 
+<img src="assets/images/s1.png" width="250"> <img src="assets/images/s2.png" width="250"> <img src="assets/images/s3.png" width="250">
 
 
 
