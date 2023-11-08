@@ -25,7 +25,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       Provider.of<ModelProvider>(context, listen: false).getModels();
@@ -53,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               chatProvider.clearMessages();
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.restart_alt,
             ),
           )
@@ -116,41 +115,6 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         },
       ),
-
-      // body: Column(
-      //   children: [
-      //     ValueListenableBuilder(
-      //       valueListenable: appProvider.isBusyNotifier,
-      //       builder: (context, value, child) {
-      //         return Visibility(
-      //           visible: appProvider.isBusy,
-      //           child: const SpinKitDoubleBounce(
-      //             color: Colors.white,
-      //             size: 20,
-      //           ),
-      //         );
-      //       },
-      //     ),
-      //     Center(
-      //       child: ValueListenableBuilder(
-      //         valueListenable: appProvider.questionController,
-      //         builder: (context, value, child) {
-      //           return Padding(
-      //             padding: const EdgeInsets.all(8.0),
-      //             child: Column(
-      //               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      //               children: [
-      //                 Text(appProvider.questionController.text),
-      //                 //widget wait loading ....
-      //               ],
-      //             ),
-      //           );
-      //         },
-      //       ),
-      //     ),
-      //   ],
-      // ),
-      // bottomNavigationBar: const CustomTextFields()
     );
   }
 }
