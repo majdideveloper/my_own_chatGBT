@@ -44,7 +44,7 @@
 With this Flutter app, you can engage in natural language conversations with OpenAI's ChatGPT API through an intuitive and user-friendly interface. Simply type in your queries, and let the app take care of the rest.
 
 ## Video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/giGCkPfhVPo?si=9cOz15H_LA1luJzj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://youtu.be/giGCkPfhVPo?si=_m8gDNS56UKTvJvU
 
 
 
